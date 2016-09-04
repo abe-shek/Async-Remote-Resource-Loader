@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Remote Resource Loader</string>
+    <string name="APP_BASE_URL">http://your.api-base.url</string>
+</resources>
