@@ -34,9 +34,8 @@ public class ResourceLoader {
 
             @Override
             public void onFailure(Call<ResponseBody> call, Throwable t) {
-                if (t instanceof IOException)
-                    Toast.makeText(mContext, "Please check your network connection", Toast.LENGTH_LONG).show();
-
+                if (t instanceof IOException && !call.isCanceled())
+                    Toast.makeText(mContext, "Please check your network connection", Toast.LENGTH_SHORT).show();
             }
         });
         if (onCancel != null) {
