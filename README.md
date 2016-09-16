@@ -3,7 +3,7 @@ Use this library to quickly fetch a remote resource, be it a Json
 object or an Image file or Maps. 
 
 Add the dependency in your build.gradle file of your application. 
-![boardActivityWithRecyclerView.png]({{site.baseurl}}/boardActivityWithRecyclerView.png)
+![boardActivityWithRecyclerView.png](boardActivityWithRecyclerView.png)
 
 
 ## Classes to use
