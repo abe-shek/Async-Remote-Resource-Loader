@@ -6,6 +6,9 @@ object or an Image file or Maps.
 
 
 Add the dependency in your build.gradle file of your application. 
+```java
+  compile 'com.awlabs.library.asyncremoteresourceloader:remoteResourceLoader:1.0'
+```
 
 ## Classes to use
 
